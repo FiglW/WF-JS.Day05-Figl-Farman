@@ -1,49 +1,10 @@
-{
-   "$schema": "http://json-schema.org/draft-04/schema#",
-   "title": "employee",
-   "description": "employee data to sell",
-   "type": "object",
-	
-   "properties": {
-	
-      "uniqueID": {
-         "description": "The unique identifier for a product",
-         "type": "integer"
-      },
-		
-      "firstname": {
-         "description": "Name of the product",
-         "type": "string"
-      },
-		
-      "lastname": {
-         "type": "string",
-      },
-       "emailadress": {
-         "type": "string",
-      },
-       "jobtitle": {
-         "type": "string",
-        
-      },
-       "salary": {
-         "type": "number",
-         "minimum": 200,
-         "exclusiveMinimum": true
-      }
-   },
-	
-   "required": ["uniqueID", "firstname", "lastname","emailadress","jobtitle","salary"]
-}
-
-
-"employee" :[{
+var employee = [{
     "uniqueID" : "404",
     "firstname" : "firstone",
     "lastname" : "onefirst",
     "emailadress" :"blaa@blaa.duh",
     "jobtitle" : "title..",
-    "salary" : " 400" , 
+    "salary" : " 400"  
 },
 {
     "uniqueID" : "405",
@@ -51,5 +12,23 @@
     "lastname" : "onefirst1",
     "emailadress" :"blaa@blaa.duh1",
     "jobtitle" : "title..1",
-    "salary" : " 4001" , 
-}]
+    "salary" : " 4001" 
+}
+,
+{
+    "uniqueID" : "405",
+    "firstname" : "firstone1",
+    "lastname" : "onefirst1",
+    "emailadress" :"blaa@blaa.duh1",
+    "jobtitle" : "title..1",
+    "salary" : " 4001" 
+}
+,
+{
+    "uniqueID" : "405",
+    "firstname" : "firstone1",
+    "lastname" : "onefirst1",
+    "emailadress" :"blaa@blaa.duh1",
+    "jobtitle" : "title..1",
+    "salary" : " 4001" 
+} ]
