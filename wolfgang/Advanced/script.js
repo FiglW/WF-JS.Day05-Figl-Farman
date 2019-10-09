@@ -1,15 +1,34 @@
-var mydata = JSON.parse(data);
-var mydatazwei = JSON.parse(datazwei);
 
 
-  console.log(mydata);
-   console.log(mydatazwei);
+for (var i = 0; i < books.length; i++){
+	let hee = document.createElement("div");
+	let para = document.createElement("P");
+	para.innerHTML = books[i].title + books[i].author; 
+	para.setAttribute("style","font-family:calibri;color:green;");
+	hee.appendChild(para);
+
+	let element = document.getElementById("div1");
+	element.appendChild(hee);
+
+	let x = document.createElement("img");
+	x.setAttribute("src", books[i].imagesrc);
+	x.setAttribute("width", "304");
+	x.setAttribute("height", "230");
+	x.setAttribute("alt", "The bla Book");
+	hee.appendChild(x);//irgendwo in den body
+var result;
+if (books[i].read == "false"){
+	result="negative";
+	para.setAttribute("style","font-family:calibri;color:red;");
 
 
-  document.write("The Book " + mydata[ 0].title+ "from the  "+mydata[0].author+ " is not good to read " + mydata[0 ].read);
+} else {
+	result="positive";
 
-    document.write("<hr>"); // new line
 
-   document.write("The Book " + mydatazwei[ 0].title+ "from the  "+mydatazwei[0].author+ " is not good to read " + mydatazwei[0 ].read);
+}
+console.log(result);
+}
 
-    document.write("<hr>"); // new line
+
+	

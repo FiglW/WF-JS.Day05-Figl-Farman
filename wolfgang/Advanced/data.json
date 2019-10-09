@@ -1,6 +1,21 @@
-data = '[{"title": "Javascript for Dummies", "author": "Dummy Dumb Dumby", "read":"false"}]';
+var books = [{
+	"title": "The First Book",
+	"author": "Hansi HansWurst",
+	"read": "false",
+	"imagesrc": "kopf.jpg"
+},
+{
+	"title": "The Second Book",
+	"author": "Herbert Wurst",
+	"read": "fals",
+	"imagesrc": "java.jpg"
+},
 
-datazwei = '[{"title": "Javascript for Pro's", "author": "MCPro", "read":"false"}]';
+{
+	"title": "The third Book",
+	"author": "Herbert Wurst",
+	"read": "false",
+	"imagesrc": "java2.jpg"
 
 
-
+}]
