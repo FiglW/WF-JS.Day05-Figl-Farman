@@ -8,4 +8,10 @@ var books = [{
     "author" : "me",
     "read" : "false",
      "imagesrc" :"img2.jpg"
+}
+,{
+    "title" : "third book",
+    "author" : "not me",
+    "read" : "false",
+     "imagesrc" :"img3.jpg"
 }]
