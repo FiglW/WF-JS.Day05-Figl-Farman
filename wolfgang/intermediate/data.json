@@ -1,2 +1,8 @@
 
-data = '[{"name" : "George", "position" : "Developer"},{"name" : "Alexandar", "position" :"Project Manager"}]';
+data = '[{"uniqueID":"404","firstname" : "George", "lastname" : "lucas","emailadress": "huhu@haha.at", "jobtitle": "CHEF","Salary": "400€"}]';
+
+datazwei = '[{"uniqueID":"404","firstname" : "Muhammed", "lastname" : "farmann","emailadress": "huhu@haha.at", "jobtitle": "Developer","Salary": "800€"}]';
+
+datadrei = '[{"uniqueID":"404","firstname" : "Wolfgang", "lastname" : "Figl","emailadress": "huhu@haha.at", "jobtitle": "Developer","Salary": "500€"}]';
+
+datavier = '[{"uniqueID":"404","firstname" : "peter", "lastname" : "farmann","emailadress": "huhu@haha.at", "jobtitle": "programmer","Salary": "800€"}]';
