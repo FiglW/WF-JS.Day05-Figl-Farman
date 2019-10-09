@@ -12,6 +12,6 @@ var books = [{
 ,{
     "title" : "third book",
     "author" : "not me",
-    "read" : "false",
+    "read" : "true",
      "imagesrc" :"img3.jpg"
 }]
