@@ -19,7 +19,7 @@ for (var i = 0; i < books.length; i++){
 var result;
 if (books[i].read == "false"){
 	result="negative";
-	para.setAttribute("style","font-family:calibri;color:red;");
+	para.setAttribute("style","font-size:1.5em;font-family:Arial;color:red;");
 
 
 } else {
